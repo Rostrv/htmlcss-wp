@@ -28,13 +28,32 @@ button{
 }
 
 
-.first_content{
-     background-color:#99ff99;
+.banner{
+     background-color:grey;
      width: 100%;
-     height: 400px;
-     margin-top: 20px;
+     height: 550px;
+     margin-top: 25px;
      margin-bottom: 20px;
+     border-radius: 10px;
+     
+}
 
+.hero_image{
+     width: 100%;
+     height: 550px;
+     object-fit: cover;
+     border-radius: 10px;
+     opacity: 0.8;
+     
+}
+
+.banner_text{
+     color: white;
+     width:50%;
+     height:fit-content;
+     position: relative;
+     bottom: 150px;
+     left: 40px;
 }
 
 .site_main{
