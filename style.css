@@ -10,7 +10,7 @@ body{
      font-family: Arial, Helvetica, sans-serif;
 }
 
-     
+    /*******Header*******/ 
 .logo{
      height: 50px;
      width: auto;
@@ -19,6 +19,7 @@ body{
 
 }
 
+
 button{
      background-color: white;
      color: lightgrey;
@@ -26,10 +27,10 @@ button{
      padding: 2px;
      margin-right: 5px;
      margin-top: 20px;
-     font-size: x-small;
+     font-size: larger;
 }
 
-
+/**********banner*******/
 .banner{
      background-color:grey;
      width: 100%;
@@ -58,9 +59,11 @@ button{
      left: 40px;
 }
 
+
 p{
      font-size: small; 
 }
+
 
 .title{
      font-size:xx-large;
@@ -75,12 +78,23 @@ p{
      margin-top: 20px;
 }
 
+/********Main*********/
 
 .site_main{
     margin: 1rem 0;
-    padding-bottom: 20px;
+    
+}
+
+
+.content{
+     height: 500px;
+     width: 66%;
+     float: left;
+     margin-left:2%;
+     margin-right:2%;
 
 }
+
 
 .middle_title{
      
@@ -147,14 +161,6 @@ p{
      height: 210px;
 }
 
-.content{
-     height: 500px;
-     width: 66%;
-     float: left;
-     margin-left:2%;
-     margin-right:2%;
-
-}
 
 .description{
      margin-top: 20px;
@@ -162,10 +168,10 @@ p{
 }
 
 .site_footer{
-     height: 50px;
-     width: 100%;
-     background-color: #ffff66;
+     height: auto;
+     width: auto;
      margin-bottom:20px;
+     text-align: center;
 
 }
 
